@@ -1,0 +1,13 @@
+[build-system]
+requires = ["tomli"]
+build-backend = "backend"
+backend-path = ["meow"]
+
+[project]
+name = "typefriend"
+description = "A friendly embeddable typechecker"
+readme = "readme.md"
+requires-python = ">=3.8"
+authors = [{ name = "A5rocks" }]
+
+dynamic = ["version"]

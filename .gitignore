@@ -1,0 +1,15 @@
+# zig installation
+/zig
+/zig.exe
+/lib
+/zig-cache
+/zig-out
+
+# testing
+/empty
+/python*/
+/.venv/
+
+# build backend
+__pycache__/
+/dist/
